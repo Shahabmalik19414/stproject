@@ -13,4 +13,10 @@ st.write("___________________________________")
 
 chart_data = pd.DataFrame(np.random.randn(20, 3), columns=["a", "b", "c"])
 chart_data
-st.line_chart(chart_data)
+st.line_chart(chart_data) 
+st.markdown(""""Playground
+           **You can do :rainbow[many things] here**
+            Lets try some :sparkles[markdown]""")
+st.write("___________________________________")
+if st.button("Hit Balloon"):
+  st.balloons()
