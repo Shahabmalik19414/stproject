@@ -1,0 +1,17 @@
+[project]
+name = "stproject"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Shahab Malik", email = "shahabmalik19414@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+stproject = "stproject:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
