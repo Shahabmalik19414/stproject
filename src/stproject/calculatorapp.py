@@ -1,5 +1,5 @@
 import streamlit as st
-from calculatorfile import calculator as calc
+from stproject import calculatorfile as calc
 
 # Streamlit App UI
 st.title("rainbow[Simple Calculator App]")
