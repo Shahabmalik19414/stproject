@@ -1,7 +1,7 @@
 print("\tArithmetic Operations")
 
-def calculator():
-  while True:
+#def calculator():
+while True:
       """ Calculator is the main function
       while add, sub, multiply and division are
       sub-functions which perform mathematical operations """
@@ -43,4 +43,4 @@ def calculator():
       else:
         print("Invalid Choice")
 
-calculator()
+#calculator()
