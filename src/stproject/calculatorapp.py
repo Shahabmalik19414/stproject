@@ -2,7 +2,7 @@ import streamlit as st
 from stproject import calculatorfile as calc
 
 # Streamlit App UI
-st.title("rainbow[Simple Calculator App]")
+st.title(":rainbow[Simple Calculator App]")
 st.write("Perform basic arithmetic operations")
 
 # Input Fields
